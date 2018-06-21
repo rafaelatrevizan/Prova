@@ -1,12 +1,11 @@
-Dado("que esteja no site do Wallmart") do
-    $wallmart = Comprar.new     
-    $wallmart.doLogin    
-end
+
+  Quando("selecionar um {string}") do |string|
+    $comprar = Comprar.new
+    $comprar.doSearch(string)
+    end 
+ 
   
-  Quando("selecionar um produto") do
-    $wallmart.fillSearch
-  end
-  
-  Então("deve ser adicionad no carrinho") do
-    pending # Write code here that turns the phrase above into concrete actions
+  Então("deve ser adicionado no carrinho") do
+    $comprar.chooseP
+    $comprar.confirmarCompra
   end

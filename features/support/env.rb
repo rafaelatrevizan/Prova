@@ -7,6 +7,9 @@ require 'capybara/dsl'
 require 'pry'
 require 'cpf_faker'
 require 'fileutils'
+require "rubygems"
+# require "correios"
+# require 'httparty'
 
 World(PageObject::PageFactory)
 
