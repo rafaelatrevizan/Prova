@@ -1,5 +1,7 @@
 #language: pt
 #utf-8
+
+
 @Wallmart
 Funcionalidade: Fazer uma compra
 Eu como usuário

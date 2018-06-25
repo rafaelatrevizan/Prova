@@ -101,6 +101,7 @@ DEPENDENCIES
   rspec
   selenium-webdriver
   site_prism
+  httparty (~> 0.13.1)
 
 BUNDLED WITH
    1.16.1
